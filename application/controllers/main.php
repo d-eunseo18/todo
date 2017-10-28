@@ -13,7 +13,7 @@ if(!defined('BASEPATH')) exit('No direct script access allowed');
 // 클래스명은 컨트롤러 파일명과 동일. (파일명 첫글자 소문자, 클래스명 첫글자 대문자)
 class Main extends CI_Controller {
 
-    // 생성자(Constructor) : 컨트롤러 내부에서 사용할 변수를 선언하거나 라이브러리, 모델, 헬퍼를 로딩할 수 있음.
+    // 생성자(Constructor)  : 컨트롤러 내부에서 사용할 변수를 선언하거나 라이브러리, 모델, 헬퍼를 로딩할 수 있음.
     function __construct()
     {
         parent::__construct();
